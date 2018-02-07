@@ -17,7 +17,7 @@ public class contact extends AppCompatActivity {
     }
 
 
-    public void onButtonClicked(View view){
+    public void onButtonClick(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 

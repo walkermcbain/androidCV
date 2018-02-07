@@ -9,9 +9,9 @@
     <Button
         android:id="@+id/button3"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="296dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
@@ -20,14 +20,13 @@
         android:background="@color/colorAccent"
         android:elevation="4dp"
         android:onClick="onButtonClicked"
-        android:text="Next Page"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textColor="#FFFFFF"
+        android:text="@string/details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.925" />
 
     <Button
         android:id="@+id/pdf1"
@@ -35,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="96dp"
+        android:layout_marginTop="202dp"
         android:background="@drawable/pdf"
         android:elevation="8dp"
         android:onClick="onClick"
@@ -44,26 +43,24 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintHorizontal_bias="0.502" />
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="264dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="@string/cvtext"
-        android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pdf1"
-        app:layout_constraintVertical_bias="0.325"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintVertical_bias="0.159" />
 
 </android.support.constraint.ConstraintLayout>

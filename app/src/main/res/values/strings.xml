@@ -7,4 +7,7 @@
     <string name="thankyou"> Thank you for looking at my CV</string>
     <string name="contact">Email: walkermcbain@gmail.com</string>
     <string name="phone">Phone: +44(0)74 2952 9659</string>
+    <string name="beginning">Have another look</string>
+    <string name="details">My Details</string>
+    <string name="aboutme">I work, I enjoy guiness, I garden. I attempt to surf.</string>
 </resources>
