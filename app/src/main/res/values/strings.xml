@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WalkerMcBainCV</string>
+    <string name="button1">Take a Look</string>
+    <string name="button2">CV on next page</string>
+    <string name="intro">Hello! I\'m Walker</string>
+    <string name="cvtext">Please check out my CV</string>
+    <string name="thankyou"> Thank you for looking at my CV</string>
+    <string name="contact">Email: walkermcbain@gmail.com</string>
+    <string name="phone">Phone: +44(0)74 2952 9659</string>
+</resources>
